@@ -95,7 +95,7 @@
 
         cmd_layer {
             bindings = <
- &kp ESC    &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans     &trans
+ &kp ESC    &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans    &kp DEL
  &kp TAB  &kp LGUI  &kp LALT  &trans     &trans  &trans  &trans  &trans  &trans  &kp ENTER
   &trans    &trans    &trans  &trans     &trans  &trans  &trans  &trans  &trans     &trans
                               &trans  &kp ENTER  &trans  &trans
