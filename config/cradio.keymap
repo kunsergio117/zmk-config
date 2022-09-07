@@ -78,9 +78,9 @@
         right_layer {
             bindings = <
       &kp LESS_THAN      &kp GREATER_THAN     &kp LEFT_BRACE     &kp RIGHT_BRACE   &none       &none         &kp  LEFT_BRACKET    &kp RIGHT_BRACKET    &kp LEFT_PARENTHESIS      &kp RPRN
-      &kp EXCL          &kp AT                &kp HASH            &kp DOLLAR   &kp KP_MINUS    &kp KP_PLUS     &kp PERCENT           &kp CARET            &kp AMPERSAND           &kp ASTRK
-      &none             &none                 &none               &kp UNDER       &none        &none           &kp EQUAL          &none          &none          &none 
-                                                                    &none          &kp BSPC    &kp SPACE      &none
+      &kp EXCL          &kp AT                &kp HASH            &kp DOLLAR      &none         &none     &kp PERCENT           &kp CARET            &kp AMPERSAND           &kp ASTRK
+      &none             &none                 &none               &kp UNDER       &none        &none           &kp COLON              &kp SEMI           &kp PIPE             &kp BSLH 
+                                                                    &none        &kp BSPC    &kp SPACE      &none
             >;
         };
 
@@ -96,7 +96,7 @@
         cmd_layer {
             bindings = <
  &kp ESC            &trans  &trans        &trans     &trans  &trans  &trans  &trans  &trans    &kp DEL
- &kp TAB  &kp LEFT_COMMAND   &none        &trans     &trans  &trans  &trans  &trans  &trans  &kp ENTER
+ &kp TAB           &none   &kp LEFT_COMMAND  &trans   &trans  &trans  &trans  &trans  &trans  &kp ENTER
   &trans            &trans  &trans        &trans     &trans  &trans  &trans  &trans  &trans     &trans
                                     &kp LEFT_ALT  &kp ENTER  &trans  &trans
             >;
