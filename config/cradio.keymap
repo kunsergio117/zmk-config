@@ -26,31 +26,24 @@
         combo_tab {
             timeout-ms = <50>;
             key-positions = <10 11>;
-            bindings = <&kp TAB>;
+            bindings = <&sk LCMD>;
         };
 
         combo_ralt {
             timeout-ms = <50>;
             key-positions = <17 16>;
-            bindings = <&kp RALT>;
+            bindings = <&sk RALT>;
         };
 
         combo_lalt {
             timeout-ms = <50>;
-            key-positions = <11 12>;
-            bindings = <&kp LALT>;
-        };
-
-        combo_lgui {
-            timeout-ms = <50>;
             key-positions = <12 13>;
-            bindings = <&kp LGUI>;
+            bindings = <&sk LALT>;
         };
 
-        combo_rgui {
-            timeout-ms = <50>;
-            key-positions = <17 18>;
-            bindings = <&kp RGUI>;
+        rgui {
+            bindings = <&sk RCMD>;
+            key-positions = <18 19>;
         };
     };
 
@@ -59,10 +52,10 @@
 
         default_layer {
             bindings = <
-      &kp Q   &kp W   &kp E      &kp R       &kp T        &kp Y    &kp U      &kp I    &kp O           &kp P
-      &kp A   &kp S   &kp D    &lt 4 F       &kp G        &kp H  &lt 4 J      &kp K    &kp L        &sk APOS
- &mt LCMD Z   &kp X   &kp C      &kp V       &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &mt RCMD SLASH
-                             &sk LSHFT  &lt 1 BSPC  &lt 2 SPACE    &mo 3
+  &kp Q   &kp W   &kp E      &kp R       &kp T        &kp Y    &kp U      &kp I    &kp O      &kp P
+  &kp A   &kp S   &kp D    &lt 4 F       &kp G        &kp H  &lt 4 J      &kp K    &kp L   &sk APOS
+  &kp Z   &kp X   &kp C      &kp V       &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp SLASH
+                         &sk LSHFT  &lt 1 BSPC  &lt 2 SPACE    &mo 3
             >;
         };
 
