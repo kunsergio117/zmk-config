@@ -68,10 +68,10 @@
 
         left_layer {
             bindings = <
-   &kp KP_DIVIDE  &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &kp LC(LG(S))     &none  &kp UP_ARROW       &none   &none
- &kp KP_MULTIPLY  &kp N4  &kp N5  &kp N6   &kp KP_PLUS          &none  &kp LEFT      &kp DOWN   &kp RIGHT   &none
-    &kp NUMBER_0  &kp N1  &kp N2  &kp N3     &kp EQUAL          &none     &none     &kp COMMA  &kp K_STOP   &none
-                                   &none      &kp BSPC      &kp SPACE     &none
+   &kp KP_DIVIDE  &kp N7  &kp N8  &kp N9  &kp KP_MINUS      &none     &none  &kp UP_ARROW       &none   &none
+ &kp KP_MULTIPLY  &kp N4  &kp N5  &kp N6   &kp KP_PLUS      &none  &kp LEFT      &kp DOWN   &kp RIGHT   &none
+    &kp NUMBER_0  &kp N1  &kp N2  &kp N3     &kp EQUAL      &none     &none     &kp COMMA  &kp K_STOP   &none
+                                   &none      &kp BSPC  &kp SPACE     &none
             >;
         };
 
@@ -95,10 +95,10 @@
 
         cmd_layer {
             bindings = <
- &kp ESC  &trans    &trans    &trans     &trans  &trans  &trans  &trans  &trans    &kp DEL
- &kp TAB   &none  &sk LALT    &trans     &trans  &trans  &trans  &trans  &trans  &kp ENTER
-  &trans  &trans    &trans    &trans     &trans  &trans  &trans  &trans  &trans     &trans
-                            &sk LCMD  &kp ENTER  &trans  &trans
+ &kp ESC  &trans    &trans    &trans     &trans     &trans  &trans  &trans  &trans  &kp DEL
+ &kp TAB   &none  &sk LALT    &trans     &trans     &trans  &trans  &trans  &trans    &none
+  &trans  &trans    &trans    &trans     &trans     &trans  &trans  &trans  &trans   &trans
+                            &sk LCMD  &kp ENTER  &kp ENTER  &trans
             >;
         };
     };
