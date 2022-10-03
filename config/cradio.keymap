@@ -26,23 +26,23 @@
         combo_tab {
             timeout-ms = <50>;
             key-positions = <10 11>;
-            bindings = <&sk LCMD>;
+            bindings = <&kp LCMD>;
         };
 
         combo_ralt {
             timeout-ms = <50>;
             key-positions = <17 16>;
-            bindings = <&sk RALT>;
+            bindings = <&kp RALT>;
         };
 
         combo_lalt {
             timeout-ms = <50>;
             key-positions = <12 13>;
-            bindings = <&sk LALT>;
+            bindings = <&kp LALT>;
         };
 
         rgui {
-            bindings = <&sk RCMD>;
+            bindings = <&kp RCMD>;
             key-positions = <18 19>;
         };
     };
