@@ -22,29 +22,6 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
-
-        combo_tab {
-            timeout-ms = <50>;
-            key-positions = <10 11>;
-            bindings = <&kp LCMD>;
-        };
-
-        combo_ralt {
-            timeout-ms = <50>;
-            key-positions = <17 16>;
-            bindings = <&kp RALT>;
-        };
-
-        combo_lalt {
-            timeout-ms = <50>;
-            key-positions = <12 13>;
-            bindings = <&kp LALT>;
-        };
-
-        rgui {
-            bindings = <&kp RCMD>;
-            key-positions = <18 19>;
-        };
     };
 
     keymap {
@@ -52,10 +29,10 @@
 
         default_layer {
             bindings = <
-  &kp Q   &kp W   &kp E      &kp R       &kp T        &kp Y    &kp U      &kp I    &kp O      &kp P
-  &kp A   &kp S   &kp D    &lt 4 F       &kp G        &kp H  &lt 4 J      &kp K    &kp L   &sk APOS
-  &kp Z   &kp X   &kp C      &kp V       &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp SLASH
-                         &sk LSHFT  &lt 1 BSPC  &lt 2 SPACE    &mo 3
+      &kp Q   &kp W   &kp E      &kp R       &kp T        &kp Y    &kp U      &kp I    &kp O              &kp P
+      &kp A   &kp S   &kp D    &lt 4 F       &kp G        &kp H  &lt 4 J      &kp K    &kp L           &kp APOS
+ &mt LCMD Z   &kp X   &kp C      &kp V       &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &mt RCMD KP_SLASH
+                             &sk LSHFT  &lt 1 BSPC  &lt 2 SPACE    &mo 3
             >;
         };
 
